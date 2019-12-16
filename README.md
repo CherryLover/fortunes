@@ -47,8 +47,10 @@ $ strfile fortunes/data/chinese
 $ strfile fortunes/data/tang300
 $ strfile fortunes/data/song100
 $ strfile fortunes/data/diet
-$ mv fortunes/data/* /usr/local/share/games/fortunes/
+$ sudo mv /fortunes/data/* /usr/local/Cellar/fortune/9708/share/games/fortunes/
 ```
+
+> 9708 is fortunes version，you can use `fortune -v` to see it.
 
 ## Usage
 
